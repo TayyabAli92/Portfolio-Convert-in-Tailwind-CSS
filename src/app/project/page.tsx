@@ -7,7 +7,7 @@ export default function Project() {
       <div className="flex gap-5 justify-center flex-wrap">
         <div className="w-[290px] bg-[#242222] animate-fadeInUp [box-shadow:0px_0px_20px_wheat] rounded-lg overflow-hidden p-5 text-center transition-transform duration-300 hover:translate-y-[-5px]">
           <Image
-            src="/countdown-timer.png"
+            src="/countdown-timer.PNG"
             alt="Countdown Timer"
             width={300}
             height={250}
@@ -55,7 +55,7 @@ export default function Project() {
 
         <div className="w-[290px] bg-[#242222] animate-fadeInUp [box-shadow:0px_0px_20px_wheat] rounded-lg overflow-hidden p-5 text-center transition-transform duration-300 hover:translate-y-[-5px]">
           <Image
-            src="/todo-list.png"
+            src="/todo-list.PNG"
             alt="Todo List"
             width={300}
             height={250}
