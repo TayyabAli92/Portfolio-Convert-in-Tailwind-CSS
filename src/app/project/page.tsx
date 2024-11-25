@@ -7,7 +7,7 @@ export default function Project() {
       <div className="flex gap-5 justify-center flex-wrap">
         <div className="w-[290px] bg-[#242222] animate-fadeInUp [box-shadow:0px_0px_20px_wheat] rounded-lg overflow-hidden p-5 text-center transition-transform duration-300 hover:translate-y-[-5px]">
           <Image
-            src="/countdown-timer.PNG"
+            src="/countdown timer.PNG"
             alt="Countdown Timer"
             width={300}
             height={250}
@@ -73,6 +73,52 @@ export default function Project() {
               rel="noopener noreferrer"
             >
               View List
+            </a>
+          </button>
+        </div>
+
+        <div className="w-[290px] bg-[#242222] animate-fadeInUp [box-shadow:0px_0px_20px_wheat] rounded-lg overflow-hidden p-5 text-center transition-transform duration-300 hover:translate-y-[-5px]">
+          <Image
+            src="/digital-clock.PNG"
+            alt="Clock"
+            width={300}
+            height={250}
+            className="rounded-md mb-4 shadow"
+          />
+          <h3 className="text-white font-bold text-xl mb-2">Digital Clock</h3>
+          <p className="text-gray-300 text-sm mb-4">
+          A digital clock is a contemporary device designed to measure and display time in a numerical format.
+          </p>
+          <button className="bg-blue-600 text-white py-2 px-4 rounded transition duration-300 hover:bg-blue-700">
+            <a
+              href="https://next-js-digital-clock-two.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Clock
+            </a>
+          </button>
+        </div>
+
+        <div className="w-[290px] bg-[#242222] animate-fadeInUp [box-shadow:0px_0px_20px_wheat] rounded-lg overflow-hidden p-5 text-center transition-transform duration-300 hover:translate-y-[-5px]">
+          <Image
+            src="/calculator.PNG"
+            alt="Clock"
+            width={300}
+            height={250}
+            className="rounded-md mb-4 shadow"
+          />
+          <h3 className="text-white font-bold text-xl mb-2">Calculator</h3>
+          <p className="text-gray-300 text-sm mb-4">
+          A digital clock is a contemporary device designed to measure and display time in a numerical format.
+          </p>
+          <button className="bg-blue-600 text-white py-2 px-4 rounded transition duration-300 hover:bg-blue-700">
+            <a
+              href="https://next-js-simple-calculator.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Calculator
             </a>
           </button>
         </div>
