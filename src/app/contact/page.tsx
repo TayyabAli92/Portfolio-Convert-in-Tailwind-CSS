@@ -50,7 +50,7 @@ export default function Contact() {
               <img src="/github.png" alt="github" className="w-10" />
             </a>
             <a
-              href="https://www.linkedin.com/in/tayyab-ali-personal-86a3582b8/"
+              href="https://www.linkedin.com/in/muhammad-tayyab-ali-121133339/"
               target="_blank"
               rel="noopener noreferrer"
               className="mx-2"
